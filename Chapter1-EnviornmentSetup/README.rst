@@ -14,6 +14,7 @@ After the installation, you can type ``python --version`` on CMD. It shows as
 follow:
 
 .. code-block:: text
+
     ~\python-tutorial\Chapter1-EnviornmentSetup>python --version
     Python 3.8.0
 
@@ -21,7 +22,8 @@ You can see a simple example in `first.py`_. Use `python first.py` to try to
 run your first Python code:
 
 .. code-block:: text
+
     ~\python-tutorial\Chapter1-EnviornmentSetup>python first.py
     Hello world!
 
-.._first.py: https://github.com/openpyer/python-tutorial/blob/master/Chapter1-EnvironmentSetup/first.py
+.. _first.py: https://github.com/openpyer/python-tutorial/blob/master/Chapter1-EnvironmentSetup/first.py
