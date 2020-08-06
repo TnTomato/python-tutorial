@@ -2,8 +2,9 @@ Environment Setup
 =================
 
 The first step of learning a programming language is environment setup.
-In this case, we choose to develop on Windows 10 and use Python 3.8. `Pycharm`_
-is recommended for both green hands and old hands.
+In this case, we choose to develop on Windows 10 and use Python 3.8.
+
+About IDE, `Pycharm`_ is recommended for both green hands and old hands.
 
 .. _Pycharm: https://www.jetbrains.com/pycharm/
 
