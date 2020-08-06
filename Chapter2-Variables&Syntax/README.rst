@@ -1,6 +1,27 @@
 Variables and Syntax
 ====================
 
+Variable naming
+----------------
+
+Variable naming is a serious issue. A thousand programmers may have a thousand
+ways to name a variable.
+
+In Python, we usually name variables following the rule of ``snake case``.
+For example:
+
+.. code-block:: python
+
+    file_name = 'main.py'
+    people_in_allowed_list = ['Tom', 'Jerry']
+
+These are not recommended:
+
+.. code-block:: python
+
+    fileName = 'main.py'
+    PeopleInAllowedList = ['Tom', 'Jerry']
+
 Variable Types
 --------------
 
@@ -281,15 +302,70 @@ Here is a way to list all of the Python Keywords:
 >>> keyword.kwlist
 ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 
+Also see in `keywords.py`_.
+
 There are 35 keywords in total, which means you cannot name variables or
 functions or classes after them. It's not necessary to remember all these
 keywords. You will be familiar with them after coding for a period of time.
+
+.. _keywords.py: https://github.com/openpyer/python-tutorial/blob/master/Chapter2-Variables%26Syntax/keywords.py
 
 Python Syntax Intro
 -------------------
 
 Python uses 4 spaces as a single indent. These indents are the only controller
 of your code blocks. Python, is not like other programming languages, doesn't
-use ``{}`` to pack functions and classes.
+need to pack code blocks with ``{}``.
 
-TODO: 缩进 空格 换行
+Do you remember the function named ``get_meta`` inside `Tuple`_ above? That's
+how Python do with code blocks. Wrong indents will raise an
+``IndentationError``.
+
+As a stadard, we always add spaces and empty lines somewhere to make our
+codes elegant. Let's see a terrible one:
+
+.. code-block:: python
+
+    import time
+    def pause(sec:int)->None:
+        time.sleep(sec)
+    def strange_add(a:int,b:int)->int:
+        a+=10
+        return a+b
+    if __name__ == '__main__':
+        print('start')
+        result=strange_add(5,7)
+        pause(2)
+        print(result)
+        print('end')
+
+No doubt, this one is better:
+
+.. code-block:: python
+
+    import time
+
+
+    def pause(sec: int) -> None:
+        time.sleep(sec)
+
+
+    def strange_add(a: int, b: int) -> int:
+        a += 10
+        return a + b
+
+
+    if __name__ == '__main__':
+        print('start')
+        result = strange_add(5, 7)
+        pause(2)
+        print(result)
+        print('end')
+
+Also see in `syntax.py`_.
+
+Be an elegant coder, because you will never code alone all your lifetime.
+As ``Dave Carhart`` said, always code as if the guy who ends up maintaining,
+or testing your code will be a violent psychopath who knows where you live.
+
+.. _syntax.py: https://github.com/openpyer/python-tutorial/blob/master/Chapter2-Variables%26Syntax/syntax.py
