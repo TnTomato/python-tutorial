@@ -1,3 +1,6 @@
+from typing import Tuple
+
+
 foo = 10
 bar = 'Sam'
 
@@ -66,3 +69,34 @@ print(sam.get('age'))  # 20
 print(sam['pets'][0]['type'])  # dog
 print(sam.get('gender'))  # None
 print(sam.get('mood'), 'happy')
+
+
+# Tuple
+john = ('john', 20, 180)
+lily = 'lily', 19, 168
+tmp = (1, )
+
+
+# This is a function to get `name` and `age` from a given dictionary
+def get_meta(info: dict) -> Tuple[str, int]:
+    name = info.get('name')
+    age = info.get('age')
+    return name, age
+
+
+sam_meta = get_meta(sam)
+print(sam_meta)
+print(isinstance(sam_meta, tuple))
+
+
+# Set
+fruits = {'apple', 'orange', 'pineapple', 'cherry'}
+
+fruits.add('watermelon')  # add an element
+print(fruits)
+fruits.update(['pear', 'banana'])  # add several elements
+print(fruits)
+fruits.remove('apple')  # remove an element, raise an Exception if it's not exists
+print(fruits)
+fruits.pop()  # remove and return the first element after a random order
+print(fruits)

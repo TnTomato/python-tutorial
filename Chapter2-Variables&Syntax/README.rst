@@ -14,9 +14,9 @@ Python has 6 basic variable types:
 
     Dictionary_
 
-    Tuple
+    Tuple_
 
-    Set
+    Set_
 
 Among these:
 
@@ -36,6 +36,8 @@ creating a variable. Just do like:
 .. _String: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#string
 .. _List: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#list
 .. _Dictionary: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#dictionary
+.. _Tuple: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#tuple
+.. _Set: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#set
 
 Number
 ^^^^^^
@@ -191,6 +193,85 @@ Output:
     dog
     None
     happy
+
+Tuple
+^^^^^
+
+If it's said that a list seems like an array, then a tuple would be like
+kind of a structure. The biggest difference between list and tuple is that
+list is **mutable**, but tuple is **immutable**.
+
+In general, list usually contains **homogenous data**, but tuple usually
+contains **heterogeneous data**.
+
+About how to create a tuple:
+
+.. code-block:: python
+
+    john = ('john', 20, 180)
+    lily = 'lily', 19, 168
+    tmp = (1, )
+
+Remember to put a comma after the only element.
+
+A function with more than one returned value returns a tuple. For example:
+
+.. code-block:: python
+
+    # This is a function to get `name` and `age` from a given dictionary
+    def get_meta(info: dict) -> Tuple[str, int]:
+        name = info.get('name')
+        age = info.get('age')
+        return name, age
+
+
+    sam_meta = get_meta(sam)
+    print(sam_meta, isinstance(sam_meta, tuple))
+
+Output:
+
+.. code-block:: text
+
+    ('Sam', 20)
+    True
+
+Don't worry if you don't know the meaning of the above code. There
+will be a detailed introduction of **function** later.
+
+Set
+^^^
+
+Set is an unordered, distinct sequence. We use ``{}`` or ``set()`` to create
+sets.
+
+.. code-block:: python
+
+    fruits = {'apple', 'orange', 'pineapple', 'cherry'}
+
+Attention: You create an empty set from ``set()`` instead of ``{}`` because
+``{}`` represents an empty dictionary.
+
+Some of the basic operations of Set:
+
+.. code-block:: python
+
+    fruits.add('watermelon')  # add an element
+    print(fruits)
+    fruits.update(['pear', 'banana'])  # add several elements
+    print(fruits)
+    fruits.remove('apple')  # remove an element, raise an Exception if it's not exists
+    print(fruits)
+    fruits.pop()  # remove and return the first element after a random order
+    print(fruits)
+
+Output:
+
+.. code-block:: text
+
+    {'orange', 'apple', 'cherry', 'watermelon', 'pineapple'}
+    {'banana', 'orange', 'apple', 'cherry', 'watermelon', 'pineapple', 'pear'}
+    {'banana', 'orange', 'cherry', 'watermelon', 'pineapple', 'pear'}
+    {'orange', 'cherry', 'watermelon', 'pineapple', 'pear'}
 
 Python Keywords
 ---------------
