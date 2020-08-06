@@ -19,7 +19,8 @@ creating a variable. Just do like:
     foo = 10
     bar = 'Sam'
 
-.. _Number:
+.. _Number: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#1number
+.. _String: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#2string
 
 1.Number
 ^^^^^^^^
@@ -47,8 +48,6 @@ The output is:
 .. code-block:: text
 
     20.5 float
-
-.. _String:
 
 2.String
 ^^^^^^^^
