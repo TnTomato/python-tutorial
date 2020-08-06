@@ -1,7 +1,22 @@
 Variables and Syntax
 ====================
 
-Variable naming
+Welcome to Chapter 2, here is the **Navigation:**
+
+`Variable Naming`_
+
+`Variable Types`_
+
+`Python Keywords`_
+
+`Python Syntax`_
+
+.. _Variable Naming: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#variable-naming
+.. _Variable Types: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#variable-types
+.. _Variable Keywords: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#python-keywords
+.. _Variable Syntax: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#python-syntax
+
+Variable Naming
 ----------------
 
 Variable naming is a serious issue. A thousand programmers may have a thousand
@@ -310,8 +325,8 @@ keywords. You will be familiar with them after coding for a period of time.
 
 .. _keywords.py: https://github.com/openpyer/python-tutorial/blob/master/Chapter2-Variables%26Syntax/keywords.py
 
-Python Syntax Intro
--------------------
+Python Syntax
+-------------
 
 Python uses 4 spaces as a single indent. These indents are the only controller
 of your code blocks. Python, is not like other programming languages, doesn't
