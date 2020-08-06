@@ -166,7 +166,7 @@ A Python dictionary looks like a JSON.
         ]
     }
 
-Two ways to get values from a dictionary.
+Two ways to get values from a dictionary:
 
 ``dict[key]`` can get value if the key exists, or raise a KeyError.
 
@@ -180,6 +180,7 @@ For example:
     print(sam.get('age'))
     print(sam['pets'][0]['type'])
     print(sam.get('gender'))
+    print(sam.get('mood'), 'happy')
 
 Output:
 
@@ -189,6 +190,7 @@ Output:
     20
     dog
     None
+    happy
 
 Python Keywords
 ---------------

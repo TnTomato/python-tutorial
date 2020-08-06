@@ -65,3 +65,4 @@ print(sam['name'])  # Sam
 print(sam.get('age'))  # 20
 print(sam['pets'][0]['type'])  # dog
 print(sam.get('gender'))  # None
+print(sam.get('mood'), 'happy')
