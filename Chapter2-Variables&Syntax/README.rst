@@ -4,7 +4,7 @@ Variables and Syntax
 Variable Types
 --------------
 
-Python has 6 basic variable types: Number, String, List, Dictionary, Tuple
+Python has 6 basic variable types: Number_, String_, List, Dictionary, Tuple
 and Set.
 
 Mutable: List, Dictionary
@@ -19,8 +19,10 @@ creating a variable. Just do like:
     foo = 10
     bar = 'Sam'
 
-Number
-^^^^^^
+.. _Number:
+
+1.Number
+^^^^^^^^
 
 Number includes int, float, complex and bool.
 
@@ -46,8 +48,10 @@ The output is:
 
     20.5 float
 
-String
-^^^^^^
+.. _String:
+
+2.String
+^^^^^^^^
 
 Python use both single quotes(') and double quotes("). Both of the following
 means the same.

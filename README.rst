@@ -6,3 +6,14 @@ Python, feel free to learn python and have a nice time here. Or if you are an
 old hand, just feel free to attack me!
 
 Tips: You are able to clone this repo and run any example.
+
+Chapters
+========
+
+`Chapter 1 - Environment Setup`_
+
+`Chapter 2 - Variables and Syntax`_
+
+
+.. _Chapter 1 - Environment Setup: https://github.com/openpyer/python-tutorial/tree/master/Chapter1-EnvironmentSetup
+.. _Chapter 2 - Variables and Syntax: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax
