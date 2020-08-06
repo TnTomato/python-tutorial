@@ -4,12 +4,25 @@ Variables and Syntax
 Variable Types
 --------------
 
-Python has 6 basic variable types: Number_, String_, List, Dictionary, Tuple
-and Set.
+Python has 6 basic variable types:
 
-Mutable: List, Dictionary
+    Number_
 
-Immutable: Number, String, Tuple
+    String_
+
+    List
+
+    Dictionary
+
+    Tuple
+
+    Set
+
+Among these:
+
+    Mutable: List, Dictionary
+
+    Immutable: Number, String, Tuple
 
 Python is a dynamically typed language. You don't need to declare type when
 creating a variable. Just do like:
