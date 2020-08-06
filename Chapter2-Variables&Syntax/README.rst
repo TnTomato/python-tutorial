@@ -19,11 +19,11 @@ creating a variable. Just do like:
     foo = 10
     bar = 'Sam'
 
-.. _Number: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#1number
-.. _String: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#2string
+.. _Number: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#number
+.. _String: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#string
 
-1.Number
-^^^^^^^^
+Number
+^^^^^^
 
 Number includes int, float, complex and bool.
 
@@ -49,8 +49,8 @@ The output is:
 
     20.5 float
 
-2.String
-^^^^^^^^
+String
+^^^^^^
 
 Python use both single quotes(') and double quotes("). Both of the following
 means the same.
