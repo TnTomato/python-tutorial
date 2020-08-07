@@ -11,9 +11,9 @@ In Python, the operators below are supported.
 
 Please learn with the examples: `examples.py`_
 
-.. _Arithmetic Operators:https://github.com/openpyer/python-tutorial/tree/master/Chapter3-Operators#arithmetic-operators
-.. _Assignment Operators: https://github.com/openpyer/python-tutorial/tree/master/Chapter3-Operators#assignment-operators
-.. _examples.py: https://github.com/openpyer/python-tutorial/blob/master/Chapter3-Operators/examples.py
+.. _Arithmetic Operators:https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#arithmetic-operators
+.. _Assignment Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#assignment-operators
+.. _examples.py: https://github.com/TnTomato/python-tutorial/blob/master/Chapter3-Operators/examples.py
 
 Arithmetic Operators
 --------------------
