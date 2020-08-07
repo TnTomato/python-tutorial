@@ -1,15 +1,16 @@
 Variables and Syntax
 ====================
 
-Welcome to Chapter 2, here is the **Navigation:**
+Welcome to Chapter 2. This chapter contains 4 main themes. Click and skip to
+the target theme.
 
-`Variable Naming`_
+    `Variable Naming`_
 
-`Variable Types`_
+    `Variable Types`_
 
-`Python Keywords`_
+    `Python Keywords`_
 
-`Python Syntax`_
+    `Python Syntax`_
 
 .. _Variable Naming: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#variable-naming
 .. _Variable Types: https://github.com/openpyer/python-tutorial/tree/master/Chapter2-Variables%26Syntax#variable-types
