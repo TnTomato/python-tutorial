@@ -5,6 +5,13 @@ This is an easy tutorial for primary Python developer. If you are new to
 Python, feel free to learn python and have a nice time here. Or if you are an
 old hand, just feel free to attack me!
 
+This tutorial is based on my own learning path. After finishing all chapters,
+you will be able to build any easy python project on your own.
+
+Python is easy to learn but difficult to master. As a very beginner, it's vital
+to consolidate the foundation. For further consideration, the more solid the
+foundation is, the higher you stand, the farther you see.
+
 Tips: Clone this repo and run any example.
 
 Chapters
