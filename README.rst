@@ -14,6 +14,7 @@ Chapters
 
 `Chapter 2 - Variables and Syntax`_
 
+`Chapter 3 - Operators`_
 
 .. _Chapter 1 - Environment Setup: https://github.com/TnTomato/python-tutorial/tree/master/Chapter1-EnvironmentSetup
 .. _Chapter 2 - Variables and Syntax: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax
