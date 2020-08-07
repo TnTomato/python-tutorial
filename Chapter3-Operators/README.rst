@@ -45,7 +45,7 @@ Code examples:
 .. code-block:: python
 
     a = 10
-    b = 3
+    b = 5
 
     print('a + b =', a + b)
     print('a - b =', a - b)
@@ -59,13 +59,13 @@ Outputs:
 
 .. code-block:: text
 
-    a + b = 13
-    a - b = 7
-    a * b = 30
-    a / b = 3.3333333333333335
-    a ** b = 1000
-    a // b = 3
-    a % b = 1
+    a + b = 15
+    a - b = 5
+    a * b = 50
+    a / b = 2.0
+    a ** b = 100000
+    a // b = 2
+    a % b = 0
 
 Assignment Operators
 --------------------
