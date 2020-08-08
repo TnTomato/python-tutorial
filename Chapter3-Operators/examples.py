@@ -35,3 +35,6 @@ print('h //= 2, h is', h)
 
 i %= 2
 print('i %= 2, i is', i)
+
+# Comparison Operators
+# No examples!
