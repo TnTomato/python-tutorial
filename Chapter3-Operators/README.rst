@@ -8,11 +8,15 @@ In Python, the operators below are supported.
 
     - `Arithmetic Operators`_
     - `Assignment Operators`_
+    - `Comparison Operators`_
+    - `Logical Operators`_
 
 Please learn with the examples: `examples.py`_
 
 .. _Arithmetic Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#arithmetic-operators
 .. _Assignment Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#assignment-operators
+.. _Comparison Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#comparison-operators
+.. _Logical Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#logical-operators
 .. _examples.py: https://github.com/TnTomato/python-tutorial/blob/master/Chapter3-Operators/examples.py
 
 Arithmetic Operators
@@ -31,7 +35,7 @@ Arithmetic Operators
 |         |- sequences can also be multiplied by int                       |- 'a' * 3         |- 'aaa' |
 +---------+----------------------------------------------------------------+------------------+--------+
 |\/       |- one object is divided by another                              |- 4 / 2           |- 2.0   |
-|         |- avoid any division by zero                                    |- 4 / 0           |- Err   |
+|         |- avoid any division by zero                                    |- 4 / 0           |- Error |
 +---------+----------------------------------------------------------------+------------------+--------+
 |\**      |- exponentiation                                                |- 2 ** 10         |- 1024  |
 +---------+----------------------------------------------------------------+------------------+--------+
@@ -145,3 +149,45 @@ Output:
     g **= 2, g is 100
     h //= 2, h is 5
     i %= 2, i is 0
+
+Comparison Operators
+====================
+
+Comparison operators usually used in conditional statement. They do like 'more
+than', 'less than' or something. See what are they:
+
++---------+------------------------------------------------------+-------------------+----------+
+|Operator |Description                                           |Example            | Return   |
++=========+======================================================+===================+==========+
+|==       |- determine whether one object is equal to another    |- 2 == 2           |- True    |
+|         |                                                      |- 1 == 2           |- False   |
++---------+------------------------------------------------------+-------------------+----------+
+|!=       |- determine whether one object is not equal to        |- 1 != 2           |- True    |
+|         |  another                                             |- 2 != 2           |- False   |
++---------+------------------------------------------------------+-------------------+----------+
+|>        |- determine whether one object is greater than        |- 2 > 1            |- True    |
+|         |  another                                             |- 2 > 2            |- False   |
++---------+------------------------------------------------------+-------------------+----------+
+|<        |- determine whether one object is less than another   |- 1 < 2            |- True    |
+|         |                                                      |- 2 < 2            |- False   |
++---------+------------------------------------------------------+-------------------+----------+
+|>=       |- determine whether one object is greater than or     |- 2 >= 1           |- True    |
+|         |  equal to another                                    |- 2 >= 2           |- True    |
+|         |                                                      |- 1 >= 2           |- False   |
++---------+------------------------------------------------------+-------------------+----------+
+|<=       |- determine whether one object is less than or equal  |- 1 <= 2           |- True    |
+|         |  to another                                          |- 2 <= 2           |- True    |
+|         |                                                      |- 2 <= 1           |- False   |
++---------+------------------------------------------------------+-------------------+----------+
+
+There is also a comparion operator ``<>`` in Python 2, but this is a Python 3
+tutorial, you know.
+
+Oops, no examples here. It's actually too simple, you know.
+
+Oops again, why the three types of operators have the same number of letters?
+
+Whatever, the next one is not!
+
+Logical Operators
+=================
