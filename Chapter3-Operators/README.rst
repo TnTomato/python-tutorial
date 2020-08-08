@@ -11,7 +11,7 @@ In Python, the operators below are supported.
 
 Please learn with the examples: `examples.py`_
 
-.. _Arithmetic Operators:https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#arithmetic-operators
+.. _Arithmetic Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#arithmetic-operators
 .. _Assignment Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#assignment-operators
 .. _examples.py: https://github.com/TnTomato/python-tutorial/blob/master/Chapter3-Operators/examples.py
 
@@ -56,7 +56,7 @@ Code examples:
     print('a // b =', a // b)
     print('a % b =', a % b)
 
-Outputs:
+Output:
 
 .. code-block:: text
 
@@ -71,3 +71,77 @@ Outputs:
 Assignment Operators
 --------------------
 
+You must be very familiar with ``=``. But have you seen ``+=``, ``-=``, ``*=``?
+It will be easier to understand the rest of the **Assignment Operators** when
+you know how ``+=`` works. All the rest are similar. Now take a look at the
+table:
+
++---------+-----------------------------------------------------+-----------------+-----------------------------+
+|Operator |Description                                          |Example          | Explanation                 |
++=========+=====================================================+=================+=============================+
+|=        |- assign values to variables                         |- a = 2          |- let ``a`` equals ``2``     |
++---------+-----------------------------------------------------+-----------------+-----------------------------+
+|+=       |- assign the sum of the variable and the value on    |- a += 2         |- the same as ``a = a + 2``  |
+|         |  the right to the variable itself                   |                 |                             |
++---------+-----------------------------------------------------+-----------------+-----------------------------+
+|-=       |- assign the difference of the variable and the      |- a -= 2         |- the same as ``a = a - 2``  |
+|         |  value on the right to the variable itself          |                 |                             |
++---------+-----------------------------------------------------+-----------------+-----------------------------+
+|\*=      |- assign the product of the variable and the value   |- a \*= 2        |- the same as ``a = a * 2``  |
+|         |  on the right to the variable itself                |                 |                             |
++---------+-----------------------------------------------------+-----------------+-----------------------------+
+|/=       |- assign the result of dividing the variable and the |- a /= 2         |- the same as ``a = a / 2``  |
+|         |  value on the right to the variable itself          |                 |                             |
++---------+-----------------------------------------------------+-----------------+-----------------------------+
+|\**=     |- assign the result of exponentiation to the         |- a \**= 2       |- the same as ``a = a \** 2``|
+|         |  variable itself                                    |                 |                             |
++---------+-----------------------------------------------------+-----------------+-----------------------------+
+|//=      |- assign the result(after rounded down) of dividing  |- a //= 2        |- the same as ``a = a // 2`` |
+|         |  the variable and the value on the right to the     |                 |                             |
+|         |  variable itself                                    |                 |                             |
++---------+-----------------------------------------------------+-----------------+-----------------------------+
+|%=       |- assign the remainder of dividing the variable and  |- a %= 2         |- the same as ``a = a % 2``  |
+|         |  the value on the right to the variable itself      |                 |                             |
++---------+-----------------------------------------------------+-----------------+-----------------------------+
+
+Obviously, ``equal sign after an arithmetic operator`` means do the assignment
+after the arithmetic operation. Let's see some examples:
+
+.. code-block:: python
+
+    # Let us assign `c`, `d`, `e`, `f`, `g`, `h`, `i` all to 10
+    # In python, we assign the same value to multiple variables like this
+    c = d = e = f = g = h = i = 10
+
+    c += 2
+    print('c += 2, c is', c)
+
+    d -= 2
+    print('d -= 2, d is', d)
+
+    e *= 2
+    print('e *= 2, e is', e)
+
+    f /= 2
+    print('f /= 2, f is', f)
+
+    g **= 2
+    print('g **= 2, g is', g)
+
+    h //= 2
+    print('h //= 2, h is', h)
+
+    i %= 2
+    print('i %= 2, i is', i)
+
+Output:
+
+.. code-block:: text
+
+    c += 2, c is 12
+    d -= 2, d is 8
+    e *= 2, e is 20
+    f /= 2, f is 5.0
+    g **= 2, g is 100
+    h //= 2, h is 5
+    i %= 2, i is 0

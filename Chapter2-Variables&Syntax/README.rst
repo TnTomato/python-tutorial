@@ -97,7 +97,7 @@ will do type conversion automatically for the result. For example:
     result = a + b
     print(result, type(result))
 
-The output is:
+Output:
 
 .. code-block:: text
 
