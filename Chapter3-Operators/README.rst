@@ -186,6 +186,10 @@ tutorial, you know.
 Oops, no examples here. It's actually too simple, you know.
 
 Oops again, why the three types of operators have the same number of letters?
+'Arithmetic' has 10 letters, 'Assignment' has 10 letters, 'Comparison' has 10
+letters! I have no idea, that's what the dictionary told me :-)
+
+Sorry for my poor English.
 
 Whatever, the next one is not!
 
