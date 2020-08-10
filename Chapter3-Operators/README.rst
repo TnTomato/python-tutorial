@@ -80,40 +80,40 @@ It will be easier to understand the rest of the **Assignment Operators** when
 you know how ``+=`` works. All the rest are similar. Now take a look at the
 table:
 
-+---------+------------------------------------+---------------------------+-----------------------------+
-|Operator |Description                         |Example                    | Explanation                 |
-+=========+====================================+===========================+=============================+
-|=        |- assign values to variables        |- a = 2                    |- let ``a`` equals ``2``     |
-+---------+------------------------------------+---------------------------+-----------------------------+
-|+=       |- assign the sum of the variable    |- a += 2                   |- the same as ``a = a + 2``  |
-|         |  and the value onthe right to the  |                           |                             |
-|         |  variable itself                   |                           |                             |
-+---------+------------------------------------+---------------------------+-----------------------------+
-|-=       |- assign the difference of the      |- a -= 2                   |- the same as ``a = a - 2``  |
-|         |  variable and the value on the     |                           |                             |
-|         |  right to the variable itself      |                           |                             |
-+---------+------------------------------------+---------------------------+-----------------------------+
-|\*=      |- assign the product of the         |- a \*= 2                  |- the same as ``a = a * 2``  |
-|         |  variable and the value on the     |                           |                             |
-|         |  right to the variable itself      |                           |                             |
-+---------+------------------------------------+---------------------------+-----------------------------+
-|/=       |- assign the result of dividing the |- a /= 2                   |- the same as ``a = a / 2``  |
-|         |  variable and the value on the     |                           |                             |
-|         |  right to the variable itself      |                           |                             |
-+---------+------------------------------------+---------------------------+-----------------------------+
-|\**=     |- assign the result of              |- a \**= 2                 |- the same as ``a = a \** 2``|
-|         |  exponentiation to the variable    |                           |                             |
-|         |  itself                            |                           |                             |
-+---------+------------------------------------+---------------------------+-----------------------------+
-|//=      |- assign the result(after rounded   |- a //= 2                  |- the same as ``a = a // 2`` |
-|         |  down) of dividing the variable    |                           |                             |
-|         |  and the value on the right to the |                           |                             |
-|         |  variable itself                   |                           |                             |
-+---------+------------------------------------+---------------------------+-----------------------------+
-|%=       |- assign the remainder of dividing  |- a %= 2                   |- the same as ``a = a % 2``  |
-|         |  the variable and the value on the |                           |                             |
-|         |  right to the variable itself      |                           |                             |
-+---------+------------------------------------+---------------------------+-----------------------------+
++---------+------------------------------------+---------------------------------------------------------+
+|Operator |Description                         |Example and Explanation                                  |
++=========+====================================+=========================================================+
+|=        |- assign values to variables        |- a = 2, let ``a`` equals ``2``                          |
++---------+------------------------------------+---------------------------------------------------------+
+|+=       |- assign the sum of the variable    |- a += 2, the same as ``a = a + 2``                      |
+|         |  and the value onthe right to the  |                                                         |
+|         |  variable itself                   |                                                         |
++---------+------------------------------------+---------------------------------------------------------+
+|-=       |- assign the difference of the      |- a -= 2, the same as ``a = a - 2``                      |
+|         |  variable and the value on the     |                                                         |
+|         |  right to the variable itself      |                                                         |
++---------+------------------------------------+---------------------------------------------------------+
+|\*=      |- assign the product of the         |- a \*= 2, the same as ``a = a * 2``                     |
+|         |  variable and the value on the     |                                                         |
+|         |  right to the variable itself      |                                                         |
++---------+------------------------------------+---------------------------------------------------------+
+|/=       |- assign the result of dividing the |- a /= 2, the same as ``a = a / 2``                      |
+|         |  variable and the value on the     |                                                         |
+|         |  right to the variable itself      |                                                         |
++---------+------------------------------------+---------------------------------------------------------+
+|\**=     |- assign the result of              |- a \**= 2, the same as ``a = a \** 2``                  |
+|         |  exponentiation to the variable    |                                                         |
+|         |  itself                            |                                                         |
++---------+------------------------------------+---------------------------------------------------------+
+|//=      |- assign the result(after rounded   |- a //= 2, the same as ``a = a // 2``                    |
+|         |  down) of dividing the variable    |                                                         |
+|         |  and the value on the right to the |                                                         |
+|         |  variable itself                   |                                                         |
++---------+------------------------------------+---------------------------------------------------------+
+|%=       |- assign the remainder of dividing  |- a %= 2, the same as ``a = a % 2``                      |
+|         |  the variable and the value on the |                                                         |
+|         |  right to the variable itself      |                                                         |
++---------+------------------------------------+---------------------------------------------------------+
 
 Obviously, ``equal sign after an arithmetic operator`` means do the assignment
 after the arithmetic operation. Let's see some examples:
