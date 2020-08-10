@@ -103,6 +103,21 @@ Output:
 
     20.5 <class 'float'>
 
+Very special, bool is inherited from int. As we can see in the bool type's
+source code:
+
+.. code-block:: python
+
+    class bool(int):
+        """
+        bool(x) -> bool
+
+        Returns True when the argument x is true, False otherwise.
+        The builtins True and False are the only two instances of the class bool.
+        The class bool is a subclass of the class int, and cannot be subclassed.
+        """
+        ...
+
 String
 ^^^^^^
 

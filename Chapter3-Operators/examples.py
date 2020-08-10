@@ -38,3 +38,22 @@ print('i %= 2, i is', i)
 
 # Comparison Operators
 # No examples!
+
+# Logical Operators
+# No examples too!
+
+# Member Operators
+j = 30
+numbers = [10, 20, 30, 40, 50]
+
+if j in numbers:
+    print('`j` is in `numbers`')
+else:
+    print('`j` is not in `numbers`')
+
+# Identity Operations
+k = [1, 2, 3]
+m = n = [1, 2, 3]
+
+print(m is n)
+print(k is n)
