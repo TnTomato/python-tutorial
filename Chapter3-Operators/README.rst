@@ -278,5 +278,6 @@ Code examples:
 Output:
 
 .. code-block:: text
+
     True
     False
