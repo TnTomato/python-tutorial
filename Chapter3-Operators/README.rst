@@ -281,3 +281,10 @@ Output:
 
     True
     False
+
+Bitwise Operators
+=================
+
+bitwise-and
+bitwise-or
+...
