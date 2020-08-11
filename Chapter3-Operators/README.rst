@@ -285,6 +285,10 @@ Output:
 Bitwise Operators
 =================
 
+Last but not least: Bitwise Operators.
+
+You may have never used them, but they are extremely powerful.
+
 bitwise-and
 bitwise-or
 ...
