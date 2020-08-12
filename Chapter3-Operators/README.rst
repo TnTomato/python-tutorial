@@ -289,6 +289,26 @@ Last but not least: Bitwise Operators.
 
 You may have never used them, but they are extremely powerful.
 
-bitwise-and
-bitwise-or
-...
++---------+-------------------------------------------------------------------+
+|Operator |Description                                                        |
++=========+===================================================================+
+|&        |- bitwise-and: if the corresponding bits are 1, then same position |
+|         |  of the result will be 1, otherwise, 0                            |
++---------+-------------------------------------------------------------------+
+|\|       |- bitwise-or: if one of the corresponding bits is 1, then same     |
+|         |  of the result will be 1, otherwise, 0                            |
++---------+-------------------------------------------------------------------+
+|\^       |- exclusive-or: each bit, 1 to 0, 0 to 1                           |
++---------+-------------------------------------------------------------------+
+|<<       |- left shift: throw away the most significant bit, fill '0' to the |
+|         |  least significant bit                                            |
++---------+-------------------------------------------------------------------+
+|>>       |- right shift: *omiited*                                           |
+|         |                                                                   |
++---------+-------------------------------------------------------------------+
+
+The code examples may help you understand:
+
+.. code-block:: python
+
+    
