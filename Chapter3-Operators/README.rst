@@ -298,7 +298,7 @@ You may have never used them, but they are extremely powerful.
 |\|       |- bitwise-or: if one of the corresponding bits is 1, then same     |
 |         |  position of the result will be 1, otherwise 0                    |
 +---------+-------------------------------------------------------------------+
-|~        |- bitwise-not: each bit, 1 to 0, 0 to 1                            |
+|~        |- bitwise-not: each bit, 1 to 0, 0 to 1. ``~x`` is like ``-x-1``   |
 +---------+-------------------------------------------------------------------+
 |^        |- exclusive-or: if the corresponding bits are different, the same  |
 |         |  position of the result will be 1, otherwise 0                    |
@@ -310,7 +310,31 @@ You may have never used them, but they are extremely powerful.
 |         |                                                                   |
 +---------+-------------------------------------------------------------------+
 
-The code examples may help you understand:
+It's definitely hard to have a thorough understanding. *Bitwise Operators* have
+something to do with *Composition Principle of Computer*. It's not necessary
+to understand the principle for a beginner. If you want a deeper explanation,
+just Google it.
 
-.. code-block:: python
+The code examples may help you learn:
+
+.. code-block:: text
+
+    10 & 1 = 0
+    bin:
+          1010
+        & 0001
+        ------
+          0000
+
+
+    10 | 1 = 11
+    bin:
+          1010
+        | 0001
+        ------
+          1011
+
+    ~10 = -11
+    remember ~x is like -x-1
+
 
