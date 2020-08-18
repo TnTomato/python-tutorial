@@ -57,7 +57,7 @@ Python has 6 basic variable types:
 
 Among these:
 
-    Mutable: List, Dictionary
+    Mutable: List, Dictionary, Set
 
     Immutable: Number, String, Tuple
 
