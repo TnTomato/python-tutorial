@@ -10,6 +10,9 @@ In Python, the operators below are supported.
     - `Assignment Operators`_
     - `Comparison Operators`_
     - `Logical Operators`_
+    - `Member Operators`_
+    - `Identity Operations`_
+    - `Bitwise Operators`_
 
 Please learn with the examples: `examples.py`_
 
@@ -17,6 +20,9 @@ Please learn with the examples: `examples.py`_
 .. _Assignment Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#assignment-operators
 .. _Comparison Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#comparison-operators
 .. _Logical Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#logical-operators
+.. _Member Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#member-operators
+.. _Identity Operations: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#identity-operators
+.. _Bitwise Operations: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#bitwise-operators
 .. _examples.py: https://github.com/TnTomato/python-tutorial/blob/master/Chapter3-Operators/examples.py
 
 Arithmetic Operators
@@ -335,6 +341,25 @@ The code examples may help you learn:
           1011
 
     ~10 = -11
-    remember ~x is like -x-1
+    remember that ~x equals -x-1
 
+    10 ^ 1 = 11
+    bin:
+          1010
+        ^ 0001
+        ------
+          1011
 
+    10 << 1 = 20
+    bin:
+          1010
+        <<   1
+        ------
+         10100
+
+    10 >> 1 = 5
+    bin:
+          1010
+        >>   1
+        ------
+           101
