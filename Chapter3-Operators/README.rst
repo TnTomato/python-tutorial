@@ -92,7 +92,7 @@ table:
 |=        |- assign values to variables        |- a = 2, let ``a`` equals ``2``          |
 +---------+------------------------------------+-----------------------------------------+
 |+=       |- assign the sum of the variable    |- a += 2, the same as ``a = a + 2``      |
-|         |  and the value onthe right to the  |                                         |
+|         |  and the value on the right to the |                                         |
 |         |  variable itself                   |                                         |
 +---------+------------------------------------+-----------------------------------------+
 |-=       |- assign the difference of the      |- a -= 2, the same as ``a = a - 2``      |
