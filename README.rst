@@ -23,6 +23,12 @@ Chapters
 
 `Chapter 3 - Operators`_
 
+`Chapter 4 - Conditional Statement`_
+
+`Chapter 5 - Loop Statement`_
+
 .. _Chapter 1 - Environment Setup: https://github.com/TnTomato/python-tutorial/tree/master/Chapter1-EnvironmentSetup
 .. _Chapter 2 - Variables and Syntax: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax
 .. _Chapter 3 - Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators
+.. _Chapter 4 - Conditional Statement: https://github.com/TnTomato/python-tutorial/tree/master/Chapter4-ConditionalStatement
+.. _Chapter 5 - Loop Statement: https://github.com/TnTomato/python-tutorial/tree/master/Chapter5-LoopStatement

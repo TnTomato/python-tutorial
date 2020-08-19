@@ -4,18 +4,18 @@ Loop Statement
 Normal program runs sequentially, Loop Statement makes the code block run
 repeatedly.
 
-.. image:: /images/loop.png
+.. image:: Chapter5-LoopStatement/images/loop.png
 
 In Python, we use ``for`` or ``while`` to build loop statement, and use
 ``continue``, ``break`` to control it.
 
 ``continue`` is used to stop the current loop and start from the next.
 
-.. image:: /images/loop_continue.png
+.. image:: Chapter5-LoopStatement/images/loop_continue.png
 
 ``break`` is used to stop the whole loop.
 
-.. image:: /images/loop_break.png
+.. image:: Chapter5-LoopStatement/images/loop_break.png
 
 For-Loop
 --------
