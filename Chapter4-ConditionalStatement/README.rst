@@ -76,10 +76,10 @@ It's the same as Python dictionary and other similar objects.
 Exercises
 ---------
 
-Just finish `exercises.py`_ and run. If it's result is correct, you pass
+Just finish `exercise.py`_ and run. If it's result is correct, you pass
 this chapter.
 
-`answers.py`_ show the reference answer.
+`answer.py`_ show the reference answer.
 
-.. _`exercises.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter4-ConditionalStatement/exercises.py
-.. _`answers.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter4-ConditionalStatement/answers.py
+.. _`exercise.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter4-ConditionalStatement/exercise.py
+.. _`answer.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter4-ConditionalStatement/answer.py
