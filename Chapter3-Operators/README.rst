@@ -107,7 +107,7 @@ table:
 |         |  variable and the value on the     |                                         |
 |         |  right to the variable itself      |                                         |
 +---------+------------------------------------+-----------------------------------------+
-|\**=     |- assign the result of              |- a \**= 2, the same as ``a = a \** 2``  |
+|\**=     |- assign the result of              |- a \**= 2, the same as ``a = a ** 2``   |
 |         |  exponentiation to the variable    |                                         |
 |         |  itself                            |                                         |
 +---------+------------------------------------+-----------------------------------------+
