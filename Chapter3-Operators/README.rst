@@ -312,7 +312,7 @@ You may have never used them, but they are extremely powerful.
 |<<       |- left shift: throw away the most significant bit, fill '0' to the |
 |         |  least significant bit                                            |
 +---------+-------------------------------------------------------------------+
-|>>       |- right shift: *omiited*                                           |
+|>>       |- right shift: *omitted*                                           |
 |         |                                                                   |
 +---------+-------------------------------------------------------------------+
 
