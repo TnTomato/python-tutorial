@@ -5,6 +5,13 @@ debt = 125000
 
 
 def calculate(delay: int) -> Tuple[float, bool]:
+    """Calculate the repayment
+
+    :param delay: days of delay
+    :return:
+        repay: repayment amount
+        cancel: the credit card is canceled or not
+    """
     if delay <= 30:
         interest = debt * 0.0001 * delay
         cancel = False
