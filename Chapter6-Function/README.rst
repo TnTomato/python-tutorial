@@ -81,17 +81,24 @@ Parameter
 
 Function accepts several kind of parameters.
 
-    - Positional Parameter
+    - `Positional Parameter`_
 
-    - Default Parameter
+    - `Default Parameter`_
 
-    - Changeable Parameter
+    - `Changeable Parameter`_
 
-    - Keyword Parameter
+    - `Keyword Parameter`_
 
-    - Named Keyword Parameter
+    - `Named Keyword Parameter`_
 
-    - Positional-Only Parameters
+    - `Positional-Only Parameter`_
+
+.. _Positional Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#positional-parameter
+.. _Default Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#default-parameter
+.. _Changeable Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#changeable-parameter
+.. _Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#keyword-parameter
+.. _Named Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#named-keyword-parameter
+.. _Positional-Only Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#positional-only-parameter
 
 Positional Parameter
 --------------------
@@ -367,6 +374,68 @@ If there is a *Changeable Parameter*, you don't need to put an asterisk(*).
 
     def introduce(name, age, *args, skill, job):
         ...
+
+Positional-Only Parameter
+-------------------------
+
+Positional-Only Parameter uses a slash(/) to split. Let's see an example:
+
+.. code-block:: python
+
+    def introduce(name, age, /, gender, birthday, *, skill, job):
+        print('name:', name,
+              'age:', age,
+              'gender:', gender,
+              'birthday:', birthday,
+              'skill': skill,
+              'job': job)
+
+It means ``name`` and ``age`` are positional-only parameters. ``gender`` and
+``birthday`` can be both positional and keyword parameters. ``skill`` and
+``job`` are keyword parameters.
+
+So the correct way to call the function is:
+
+.. code-block:: python
+
+    introduce('Sam', 20, 'M', birthday='2000-01-01', skill='Python', job='web')
+
+Output:
+
+.. code-block:: text
+
+    name: Sam age: 20 gender: M birthday: 2000-01-01 skill: Python job: web
+
+There is a common usage. It can make a function refuse any keyword parameter.
+
+.. code-block:: python
+
+    def introduce(name, age, /):
+        print('name:', name, 'age:', age)
+
+Without the slash(/), you can call the function like:
+
+.. code-block:: python
+
+    introduce(name='Sam', age=20)
+
+But this time will raise a TypeError:
+
+.. code-block:: text
+
+    TypeError: introduce() got some positional-only arguments passed as keyword arguments: 'name, age'
+
+You can only do like:
+
+.. code-block:: python
+
+    introduce('Sam', 20)
+
+Then it will output normally:
+
+.. code-block:: text
+
+    name: Sam age: 20
 
 After all, you have learned how to define any function you like.
 
