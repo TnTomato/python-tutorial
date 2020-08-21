@@ -43,7 +43,7 @@ It's the normal way to define a function. But I recommend you to do like this:
 ..
     TODO: hyperlink to Python's typing.
 
-As we know, Python is a weak typed programming language. Using *type hint*
+As we know, Python is a dynamic type programming language. Using *type hint*
 helps indicate the types of parameters and returned values. There is a module
 called ``typing`` which plays a powerful role in type hinting. See the example
 first and I will explain it in a future chapter.
