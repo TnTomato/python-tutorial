@@ -2,9 +2,9 @@ Function
 ========
 
 When you code more and more, and you find it a little bit hard to manage
-your codes. Try *functional programming*.
+your codes. Try *Functional Programming*.
 
-In short, *functional programming* makes program structured. We just take
+In short, *Functional Programming* makes program structured. We just take
 a piece of code as a function. Then pack them inside a function. Functions
 make it easier to reuse a same piece of code. Like the built-in function
 ``print()``. We can build functions ourselves.
@@ -93,12 +93,12 @@ Function accepts several kind of parameters.
 
     - `Positional-Only Parameter`_
 
-.. _Positional Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#positional-parameter
-.. _Default Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#default-parameter
-.. _Changeable Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#changeable-parameter
-.. _Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#keyword-parameter
-.. _Named Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#named-keyword-parameter
-.. _Positional-Only Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function#positional-only-parameter
+.. _Positional Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#positional-parameter
+.. _Default Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#default-parameter
+.. _Changeable Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#changeable-parameter
+.. _Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#keyword-parameter
+.. _Named Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#named-keyword-parameter
+.. _Positional-Only Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#positional-only-parameter
 
 Positional Parameter
 --------------------
@@ -442,5 +442,5 @@ After all, you have learned how to define any function you like.
 Let's do some exercises, see it in `exercise.py`_ and check `answer.py`_
 yourself.
 
-.. _`exercise.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter6-Function/exercise.py
-.. _`answer.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter6-Function/answer.py
+.. _`exercise.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter6-Function%26Parameters/exercise.py
+.. _`answer.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter6-Function%26Parameters/answer.py
