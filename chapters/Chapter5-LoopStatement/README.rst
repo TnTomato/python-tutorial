@@ -128,5 +128,5 @@ Exercises
 Let's enjoy an easy exercise. Finish in `exercise.py`_, and check the answer
 in `answer.py`_.
 
-.. _`exercise.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter5-LoopStatement/exercise.py
-.. _`answer.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter5-LoopStatement/answer.py
+.. _`exercise.py`: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter5-LoopStatement/exercise.py
+.. _`answer.py`: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter5-LoopStatement/answer.py

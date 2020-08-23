@@ -33,4 +33,4 @@ to run your first Python code:
     Hello world!
 
 .. _the official site of Python: https://www.python.org/
-.. _first.py: https://github.com/TnTomato/python-tutorial/blob/master/Chapter1-EnvironmentSetup/first.py
+.. _first.py: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter1-EnvironmentSetup/first.py

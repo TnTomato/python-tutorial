@@ -16,14 +16,14 @@ In Python, the operators below are supported.
 
 Please learn with the examples: `examples.py`_
 
-.. _Arithmetic Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#arithmetic-operators
-.. _Assignment Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#assignment-operators
-.. _Comparison Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#comparison-operators
-.. _Logical Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#logical-operators
-.. _Member Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#member-operators
-.. _Identity Operations: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#identity-operators
-.. _Bitwise Operations: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators#bitwise-operators
-.. _examples.py: https://github.com/TnTomato/python-tutorial/blob/master/Chapter3-Operators/examples.py
+.. _Arithmetic Operators: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter3-Operators#arithmetic-operators
+.. _Assignment Operators: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter3-Operators#assignment-operators
+.. _Comparison Operators: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter3-Operators#comparison-operators
+.. _Logical Operators: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter3-Operators#logical-operators
+.. _Member Operators: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter3-Operators#member-operators
+.. _Identity Operations: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter3-Operators#identity-operators
+.. _Bitwise Operations: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter3-Operators#bitwise-operators
+.. _examples.py: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter3-Operators/examples.py
 
 Arithmetic Operators
 --------------------

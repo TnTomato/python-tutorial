@@ -12,10 +12,10 @@ the target theme.
 
     `Python Syntax`_
 
-.. _Variable Naming: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#variable-naming
-.. _Variable Types: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#variable-types
-.. _Variable Keywords: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#python-keywords
-.. _Variable Syntax: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#python-syntax
+.. _Variable Naming: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#variable-naming
+.. _Variable Types: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#variable-types
+.. _Variable Keywords: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#python-keywords
+.. _Variable Syntax: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#python-syntax
 
 Variable Naming
 ----------------
@@ -69,12 +69,12 @@ creating a variable. Just do like:
     foo = 10
     bar = 'Sam'
 
-.. _Number: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#number
-.. _String: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#string
-.. _List: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#list
-.. _Dictionary: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#dictionary
-.. _Tuple: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#tuple
-.. _Set: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax#set
+.. _Number: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#number
+.. _String: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#string
+.. _List: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#list
+.. _Dictionary: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#dictionary
+.. _Tuple: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#tuple
+.. _Set: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax#set
 
 Number
 ^^^^^^
@@ -339,7 +339,7 @@ There are 35 keywords in total, which means you cannot name variables or
 functions or classes after them. It's not necessary to remember all these
 keywords. You will be familiar with them after coding for a period of time.
 
-.. _keywords.py: https://github.com/TnTomato/python-tutorial/blob/master/Chapter2-Variables%26Syntax/keywords.py
+.. _keywords.py: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter2-Variables%26Syntax/keywords.py
 
 Python Syntax
 -------------
@@ -399,4 +399,4 @@ Be an elegant coder, because you will never code alone all your lifetime.
 As ``Dave Carhart`` said, always code as if the guy who ends up maintaining,
 or testing your code will be a violent psychopath who knows where you live.
 
-.. _syntax.py: https://github.com/TnTomato/python-tutorial/blob/master/Chapter2-Variables%26Syntax/syntax.py
+.. _syntax.py: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter2-Variables%26Syntax/syntax.py

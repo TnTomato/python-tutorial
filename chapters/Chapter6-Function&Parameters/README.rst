@@ -93,12 +93,12 @@ Function accepts several kind of parameters.
 
     - `Positional-Only Parameter`_
 
-.. _Positional Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#positional-parameter
-.. _Default Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#default-parameter
-.. _Changeable Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#changeable-parameter
-.. _Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#keyword-parameter
-.. _Named Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#named-keyword-parameter
-.. _Positional-Only Parameter: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters#positional-only-parameter
+.. _Positional Parameter: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter6-Function%26Parameters#positional-parameter
+.. _Default Parameter: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter6-Function%26Parameters#default-parameter
+.. _Changeable Parameter: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter6-Function%26Parameters#changeable-parameter
+.. _Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter6-Function%26Parameters#keyword-parameter
+.. _Named Keyword Parameter: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter6-Function%26Parameters#named-keyword-parameter
+.. _Positional-Only Parameter: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter6-Function%26Parameters#positional-only-parameter
 
 Positional Parameter
 --------------------
@@ -442,5 +442,5 @@ After all, you have learned how to define any function you like.
 Let's do some exercises, see it in `exercise.py`_ and check `answer.py`_
 yourself.
 
-.. _`exercise.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter6-Function%26Parameters/exercise.py
-.. _`answer.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter6-Function%26Parameters/answer.py
+.. _`exercise.py`: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter6-Function%26Parameters/exercise.py
+.. _`answer.py`: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter6-Function%26Parameters/answer.py

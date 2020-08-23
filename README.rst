@@ -33,10 +33,23 @@ Chapters
 
 Continue to update...
 
-.. _Chapter 1 - Environment Setup: https://github.com/TnTomato/python-tutorial/tree/master/Chapter1-EnvironmentSetup
-.. _Chapter 2 - Variables and Syntax: https://github.com/TnTomato/python-tutorial/tree/master/Chapter2-Variables%26Syntax
-.. _Chapter 3 - Operators: https://github.com/TnTomato/python-tutorial/tree/master/Chapter3-Operators
-.. _Chapter 4 - Conditional Statement: https://github.com/TnTomato/python-tutorial/tree/master/Chapter4-ConditionalStatement
-.. _Chapter 5 - Loop Statement: https://github.com/TnTomato/python-tutorial/tree/master/Chapter5-LoopStatement
-.. _Chapter 6 - Function&Parameters: https://github.com/TnTomato/python-tutorial/tree/master/Chapter6-Function%26Parameters
-.. _Chapter 7 - Class&Attributes: https://github.com/TnTomato/python-tutorial/tree/master/Chapter7-Class%26Attributes
+.. _Chapter 1 - Environment Setup: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter1-EnvironmentSetup
+.. _Chapter 2 - Variables and Syntax: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax
+.. _Chapter 3 - Operators: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter3-Operators
+.. _Chapter 4 - Conditional Statement: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter4-ConditionalStatement
+.. _Chapter 5 - Loop Statement: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter5-LoopStatement
+.. _Chapter 6 - Function&Parameters: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter6-Function%26Parameters
+.. _Chapter 7 - Class&Attributes: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter7-Class%26Attributes
+
+About Me
+========
+
+Hope you enjoy Python at my Wechat Official Account: **OpenPy**
+
+.. image:: static/images/openpy_qr_258.jpg
+
+And I'll be grateful for your support.
+
+.. image:: static/images/wechat_pay.png
+
+.. image:: static/imaages/ali_pay.jpg

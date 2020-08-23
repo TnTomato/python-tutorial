@@ -81,5 +81,5 @@ this chapter.
 
 `answer.py`_ show the reference answer.
 
-.. _`exercise.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter4-ConditionalStatement/exercise.py
-.. _`answer.py`: https://github.com/TnTomato/python-tutorial/blob/master/Chapter4-ConditionalStatement/answer.py
+.. _`exercise.py`: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter4-ConditionalStatement/exercise.py
+.. _`answer.py`: https://github.com/TnTomato/python-tutorial/blob/master/chapters/Chapter4-ConditionalStatement/answer.py
