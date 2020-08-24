@@ -7,3 +7,5 @@ list: [_ for _ in xxx]
 dict: {a: b for ... in ...}
 
 ``:=`` assginment operator
+
+class: private property
