@@ -44,7 +44,7 @@ Continue to update...
 About Me
 ========
 
-Hope you enjoy Python at my Wechat Official Account: **OpenPy**
+Hope you enjoy Python at my *Wechat Official Account*: **OpenPy**
 
 .. image:: static/images/openpy_qr_258.jpg
 
@@ -52,4 +52,4 @@ And I'll be grateful for your support.
 
 .. image:: static/images/wechat_pay.png
 
-.. image:: static/imaages/ali_pay.jpg
+.. image:: static/images/ali_pay.jpg
