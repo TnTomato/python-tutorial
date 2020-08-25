@@ -175,6 +175,30 @@ something from the package, see `pkg.py`_:
     alpha_intro()
     beta_intro()
 
+Python's strength is based on its powerful community. A great many of
+third-party packages help a lot. You must have heard of ``flask``, ``django``,
+``tenserflow`` etc. While you want to install a third-party package. Use the
+command ``pip``. It's Python's built-in package manager:
+
+.. code-block:: text
+
+    pip install flask
+
+Check in CMD if ``flask`` is successfully installed:
+
+.. code-block:: text
+
+    python -c "import flask"
+
+If no exception raised, it's installed successfully and you can try in your
+code:
+
+.. code-block:: python
+
+    from flask import Flask
+
+    app = Flask()
+    ...
 
 .. _example.py: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter8-Module%26Package/example.py
 .. _alpha.py: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter8-Module%26Package/alpha.py
