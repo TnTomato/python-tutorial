@@ -22,7 +22,7 @@ we run `example.py`_ in command line using Python command:
 
 .. code-block:: text
 
-    E:\project\python-tutorial\chapters\Chapter8-Module>python example.py
+    E:\project\python-tutorial\chapters\Chapter8-Module&Package>python example.py
     example.py
 
 We see that ``print(sys.argv[0])`` leads to the result ``example.py``.
