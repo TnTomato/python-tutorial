@@ -56,8 +56,8 @@ So, like ``sys``, we can build modules on our own. Let's create a file named
         do_print(bar)
 
 
-We declare some variables and define a function called ``do_print``. See
-``if __name__ == '__main__':``? It means the following code will be executed
+We declare some variables and define a function called ``do_print`` and a class.
+See ``if __name__ == '__main__':``? It means the following code will be executed
 when this py-file runs as a script.
 
 Output:
