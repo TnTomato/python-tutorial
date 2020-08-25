@@ -1,6 +1,13 @@
 pass
 
-typing
+package: __all__
+
+standard lib
+    os
+    sys
+    typing
+    collections
+    itertools
 
 str: string formatting(f-string)/dir(str)
 
