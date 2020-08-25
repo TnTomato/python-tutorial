@@ -22,6 +22,6 @@ I'm not a teacher. I'm a learner too. Keep learning make you stronger. Don't
 make yourself easy and comfortable. Never too late to learn.
 
 ..
-    look back(link all the knowledge)
+    look back(link all the knowledge) √
     how to learn more(practise, practical application, read source code)
     conclusion
