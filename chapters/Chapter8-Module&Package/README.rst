@@ -150,7 +150,7 @@ Package
 -------
 
 Package is a larger concept than module. Let's see the tree of the folder
-**pkg_example**:
+**pkgexample**:
 
 .. code-block:: text
 
