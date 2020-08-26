@@ -178,7 +178,7 @@ something from the package, see `pkg.py`_:
 Python's strength is based on its powerful community. A great many of
 third-party packages help a lot. You must have heard of ``flask``, ``django``,
 ``tenserflow`` etc. While you want to install a third-party package. Use the
-command ``pip``. It's Python's built-in package manager:
+command ``pip``. It's Python's official package manager:
 
 .. code-block:: text
 
