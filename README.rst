@@ -31,6 +31,10 @@ Chapters
 
 `Chapter 7 - Class&Attributes`_
 
+`Chapter 8 - Module&Package`_
+
+`Chapter 9 - Summary`_
+
 Continue to update...
 
 .. _Chapter 1 - Environment Setup: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter1-EnvironmentSetup
@@ -40,6 +44,8 @@ Continue to update...
 .. _Chapter 5 - Loop Statement: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter5-LoopStatement
 .. _Chapter 6 - Function&Parameters: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter6-Function%26Parameters
 .. _Chapter 7 - Class&Attributes: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter7-Class%26Attributes
+.. _Chapter 8 - Module&Package: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter8-Module%26Package
+.. _Chapter 9 - Summary: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter9-Summary
 
 About Me
 ========
