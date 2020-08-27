@@ -172,8 +172,8 @@ something from the package, see `pkg.py`_:
     from pkgexample.pkgalpha.utils import alpha_intro
     from pkgexample.pkgbeta.utils import beta_intro
 
-    alpha_intro()
-    beta_intro()
+    alpha_intro()  # I am in pkgalpha
+    beta_intro()  # I am in pkgbeta
 
 Python's strength is based on its powerful community. A great many of
 third-party packages help a lot. You must have heard of ``flask``, ``django``,
