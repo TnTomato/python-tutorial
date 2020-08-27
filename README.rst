@@ -35,8 +35,6 @@ Chapters
 
 `Chapter 9 - Summary`_
 
-Continue to update...
-
 .. _Chapter 1 - Environment Setup: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter1-EnvironmentSetup
 .. _Chapter 2 - Variables and Syntax: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter2-Variables%26Syntax
 .. _Chapter 3 - Operators: https://github.com/TnTomato/python-tutorial/tree/master/chapters/Chapter3-Operators
